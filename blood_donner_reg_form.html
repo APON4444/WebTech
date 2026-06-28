@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blood_donner_reg_form</title>
+
+    <style>
+        *{
+            margin :0;
+            padding :0;
+            box-sizing :border-box;
+        }
+        body{
+            font-family :Arial, Helvetica, sans-serif;
+            background : white;
+            padding :30px;
+        }
+        h2{
+            text-align: center;
+            color :red;
+            margin :20px 0;
+        }
+
+        form {
+            width :500px;
+            margin:20px auto;
+            padding : 25px;
+            background-color: white;
+            border :1px solid gray;
+            border-radius: 10px;
+        }
+
+        label{
+            font-weight :bold;
+            color :black;
+        }
+
+        input[type="submit"]{
+            background :red;
+            color : white;
+            padding : 10px;
+            border :none;
+            display :block;
+            margin:auto;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <h2>Blood Donner Registration Form</h2>
+    <form action="#" method="post">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="Age" required><br><br>
+
+         <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="bloodGroup">Blood Group:</label><br>
+        <select id="bloodGroup" name="Blood Group">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="B-">A+</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            </select><br><br>
+
+        <label for="PhoneNumber">Phone Number:</label><br>
+        <input type="text" id="PhoneNumber" name="Phone Number" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <label for="dob">Last Donation Date:</label><br>
+        <input type="date" id="dob" name="Last Donation Date"><br><br>
+
+        <label for="HealthCondition ">Health Condition:</label><br>
+        <input type="text" id="HealthCondition" name="Health Condition" required><br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+    <h2>Blood Request Form</h2>
+    <form action="#" method="post">
+
+        <label for="Patientname">Patient Name:</label><br>
+        <input type="text" id="Patientname" name="Patient Name" required><br><br>
+
+        <label for="requiredbloodgroup">Required Blood Group:</label><br>
+        <select id="requiredbloodgroup" name="Required Blood Group">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="B-">A+</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            </select><br><br>
+
+            
+        <label for="hospitalname">Hospital Name:</label><br>
+        <input type="text" id=hospitalname" name="Hospital Name" required><br><br>
+
+        <label for="Emergency">Emergency Contact Number:</label><br>
+        <input type="text" id="emergency" name="Emergency Contact Number" required><br><br>
+
+        <label for="rdob">Required Date:</label><br>
+        <input type="date" id="rdob" name="Required Date"><br><br>
+
+        <label for="Addmessage">Additional Message:</label><br>
+        <textarea id="Addmessage" name="Additional Message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit Request">
+
+    </form>
+
+     
+       
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"d61ace1a7a5c47e3831d343de077b36a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"d61ace1a7a5c47e3831d343de077b36a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
